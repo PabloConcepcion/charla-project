@@ -1,0 +1,12 @@
+[
+    {
+        "name": "Mario Odyssey",
+        "description": "Videojuego del fontanero en busca de Peach, raptada por el archiconocide Bowser, autor del hitazo 'Peaches'.",
+        "img": "https://fs-prod-cdn.nintendo-europe.com/media/images/10_share_images/games_15/nintendo_switch_4/H2x1_NSwitch_SuperMarioOdyssey_bannerXS.jpg"
+    },
+    {
+        "name": "Dauntless",
+        "description": "Juego de cazar monstruos gigantes, obtener piezas y mejorar el equipamiento. Un Monster Haunter gratuito",
+        "img": "https://assetsio.reedpopcdn.com/dauntless_BxVqalS.jpg"
+    }
+]
