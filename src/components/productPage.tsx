@@ -22,11 +22,11 @@ export const ProductPage = () => {
         }
     }
     const removeProduct = (index: number) => {
-        if (index === 0) {
+        productList.splice(index, 1);
+        if (productList.length === 0) {
             setProductList([]);
         }
         else {
-            productList.splice(index, 1);
             setProductList([...productList]);
         }
 
@@ -80,10 +80,16 @@ const ProductPageStyle = createUseStyles({
                 maxHeight: 300
             },
             "& .productCard": {
+                boxShadow: "0px 0px 10px grey",
                 flex: "0 0 30%",
+                padding: 15,
+                borderRadius: 15,
+                display: "flex  ",
+                flexDirection: "column",
+                gap: 15,
                 "& .btnZone": {
                     display: "flex",
-                    justifyContent: "space-between"
+                    justifyContent: "space-between",
                 }
             },
 
